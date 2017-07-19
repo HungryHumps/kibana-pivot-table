@@ -16,7 +16,11 @@ Basically a wrapper of [Nicolas Kruchten's Pivot Table](http://nicolas.kruchten.
 
 ## Setup
 
-//TODO
+```
+cd /tmp
+wget https://github.com/datavoyagerhk/kibana-pivot-table/raw/master/release/pivot_table-5.1.2.zip
+/usr/share/kibana/bin/kibana-plugin install file:///tmp/pivot_table-5.1.2.zip
+```
 
 ## development
 
